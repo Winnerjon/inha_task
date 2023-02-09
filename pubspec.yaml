@@ -1,0 +1,45 @@
+name: inha_task
+description: A new Flutter project.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.0-444.4.beta <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  #defaulte
+  cupertino_icons: ^1.0.2
+
+  #for sms text field
+  pin_code_fields: ^7.4.0
+
+  #for text field format
+  mask_text_input_formatter: ^2.4.0
+
+  #for state management
+  get: ^4.6.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+  #   - images/a_dot_ham.jpeg
+
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
